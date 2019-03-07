@@ -1,0 +1,37 @@
+/*
+* Megan Leach
+* Due date
+* Prom Dress 2 CSS
+*/
+
+/* The Universal Selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 75%;
+    margin: auto;
+    background-color: oldlace;
+    font-family: Times New Roman, serif;
+}
+
+h1 {
+    background-color: lavender; /* color for background */
+    color: lightsteelblue;/* color of text */
+}
+
+p { /* type slector for ALL paragraphs */
+    color: lightsteelblue;
+}
+
+#pinkText { /* use an id to change the text to red */
+    color: lightpink;
+}
+
+.coralText { /* use a class to change text to green in different kinds of elements */
+    color: lightcoral;
+}
